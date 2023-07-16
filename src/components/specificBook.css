@@ -1,0 +1,99 @@
+#contentContainer {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#bookImage {
+    margin-right: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+
+#bookInfo {
+    height: 400px;
+    width: 700px;
+}
+
+#bookInfo h2 {
+    margin: 0;
+    color: #2b519c;
+} 
+
+#bookInfo p {
+    margin: 5px;
+}
+
+#orderContainer {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 300px;
+    height: 200px;
+    border: 3px dotted #2b519c;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.orderEl{
+    width: 120px;
+    margin: 5px;    
+}
+
+#quantityInput {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #2b519c;
+    text-align: center;
+}
+
+#addToCart {
+    height: 40px;
+    width: 120px;
+    color: white;
+    background: darkblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#addToCart:hover {
+    background: #223366;
+}
+
+
+
+.rightAlign {
+    text-align: right;
+}
+
+#bookDescription {
+    height: 100px;
+    width: 1367px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button 
+{
+  opacity: 1;
+}
+
+input[type=number]::-webkit-outer-spin-button, 
+input[type=number]::-webkit-inner-spin-button 
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}

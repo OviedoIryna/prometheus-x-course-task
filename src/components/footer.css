@@ -1,0 +1,22 @@
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to left, #2b519c, #223366);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomBar p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bottomBar a {
+    color: white;
+    text-decoration: none;
+}
